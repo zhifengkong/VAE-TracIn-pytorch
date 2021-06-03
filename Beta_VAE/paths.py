@@ -1,0 +1,4 @@
+ROOT_MNIST = '/tmp2/MNIST'
+ROOT_CIFAR = '/tmp2/CIFAR'
+ROOT_EMNIST = '/tmp2/EMNIST'
+ROOT_CELEBA = '/tmp2/celebA/CelebA64/CelebA'
