@@ -29,7 +29,7 @@ Note: in CIFAR subclass experiments, the dataset parameter can be cifar_zero thr
 
 # Influences over test data
 - MNIST: ```python VAE_TracIn_testinf.py --beta 4 --latent_dim 128 --dataset mnist --task test --load_from_jpg --load_from_jpg_dir output/images/test_mnist```
-- CIFAR subclass: ```python VAE_TracIn_testinf.py --beta 2 --latent_dim 128 --dataset cifar --task test --load_from_jpg --load_from_jpg_dir output/images/test_cifar```
+- CIFAR: ```python VAE_TracIn_testinf.py --beta 2 --latent_dim 128 --dataset cifar --task test --load_from_jpg --load_from_jpg_dir output/images/test_cifar```
 - CIFAR subclass: ```python VAE_TracIn_testinf.py --beta 2 --latent_dim 64 --dataset cifar_zero --task test --load_from_jpg --load_from_jpg_dir output/images/test_cifar_zero```
 
 
