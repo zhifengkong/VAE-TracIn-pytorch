@@ -29,11 +29,6 @@ from statistics import get_auc_score, self_inf_distribution_by_elbo
 import warnings
 warnings.simplefilter("ignore")
 
-ROOT_MNIST = '/tmp2/MNIST'
-ROOT_CIFAR = '/tmp2/CIFAR'
-ROOT_EMNIST = '/tmp2/EMNIST'
-ROOT_CELEBA = '/tmp2/celebA/CelebA64/CelebA'
-
 
 def main(args):
     gpu = args.gpu
