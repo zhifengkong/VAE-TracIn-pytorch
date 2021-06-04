@@ -25,10 +25,6 @@ from statistics import train_inf_distribution_by_label, get_inf_vs_latent_dist, 
 import warnings
 warnings.filterwarnings("ignore")
 
-ROOT_MNIST = '/tmp2/MNIST'
-ROOT_CIFAR = '/tmp2/CIFAR'
-ROOT_CELEBA = '/tmp2/celebA/CelebA64/CelebA'
-
 
 def main(args):
     gpu = args.gpu
