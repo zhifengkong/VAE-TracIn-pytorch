@@ -10,15 +10,12 @@ matplotlib.rcParams['agg.path.chunksize'] = 100000
 import matplotlib.pyplot as plt 
 from matplotlib import cm
 
-# https://www.python-graph-gallery.com
 import seaborn as sns
-# sns.set(style="darkgrid")
 import pandas as pd
 
 import torch
 from torch import nn, optim
 from torch.nn import functional as F
-import torch.utils.model_zoo as model_zoo
 
 from torchvision import transforms
 
