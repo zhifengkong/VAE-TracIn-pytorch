@@ -1,6 +1,6 @@
 # Official PyTorch implementation for "Understanding Instance-based Interpretability of Variational Auto-Encoders".
 
-This repo implements VAE-TracIn, an instance based interpretation method for variational autoencoders. See paper via [this link](https://arxiv.org/pdf/2105.14203.pdf).
+This repo implements VAE-TracIn, an instance based interpretation method for variational autoencoders. See paper via [this link](https://arxiv.org/abs/2105.14203).
 
 # Train VAE Models
 To train VAE models, ```cd ./Beta_VAE/```, modify dataset paths in ```paths.py```, and then run
